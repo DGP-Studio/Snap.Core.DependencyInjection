@@ -9,13 +9,12 @@ namespace Snap.Core.DependencyInjection
     public class ViewAttribute : Attribute
     {
         /// <summary>
-        /// 指示该类为视图模型
+        /// 指示该类为视图
         /// </summary>
         public ViewAttribute(InjectAs injectAs)
         {
             InjectAs = injectAs;
         }
-
         public InjectAs InjectAs { get; set; }
     }
 }
