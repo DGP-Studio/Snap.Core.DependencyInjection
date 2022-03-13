@@ -6,7 +6,7 @@ namespace Snap.Core.DependencyInjection
     /// 指示该类为视图
     /// </summary>
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
-    public class ViewAttribute : Attribute
+    public class ViewAttribute : InjectableAttribute
     {
         /// <summary>
         /// 指示该类为视图
@@ -15,6 +15,5 @@ namespace Snap.Core.DependencyInjection
         {
             InjectAs = injectAs;
         }
-        public InjectAs InjectAs { get; set; }
     }
 }
