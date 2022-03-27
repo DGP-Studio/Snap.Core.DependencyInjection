@@ -13,7 +13,7 @@ namespace Snap.Core.DependencyInjection
         /// </summary>
         public ViewAttribute(InjectAs injectAs)
         {
-            InjectAs = injectAs;
+            this.InjectAs = injectAs;
         }
     }
 }

@@ -14,8 +14,8 @@ namespace Snap.Core.DependencyInjection
         /// <param name="impl">实现的接口类型</param>
         public FactoryAttribute(Type impl, InjectAs injectAs)
         {
-            InterfaceType = impl;
-            InjectAs = injectAs;
+            this.InterfaceType = impl;
+            this.InjectAs = injectAs;
         }
     }
 }
