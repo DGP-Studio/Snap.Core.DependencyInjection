@@ -11,9 +11,10 @@ namespace Snap.Core.DependencyInjection
         /// <summary>
         /// 指示该类为视图
         /// </summary>
+        /// <param name="injectAs">指示注入方法</param>
         public ViewAttribute(InjectAs injectAs)
         {
-            this.InjectAs = injectAs;
+            InjectAs = injectAs;
         }
     }
 }

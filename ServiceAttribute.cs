@@ -12,10 +12,11 @@ namespace Snap.Core.DependencyInjection
         /// 指示该类为服务
         /// </summary>
         /// <param name="impl">实现的接口类型</param>
+        /// <param name="injectAs">指示注入方法</param>
         public ServiceAttribute(Type impl, InjectAs injectAs)
         {
-            this.InterfaceType = impl;
-            this.InjectAs = injectAs;
+            InterfaceType = impl;
+            InjectAs = injectAs;
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿namespace Snap.Core.DependencyInjection
 {
     /// <summary>
-    /// 注入类型
+    /// 注入方法
     /// </summary>
     public enum InjectAs
     {

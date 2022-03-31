@@ -3,7 +3,7 @@
 namespace Snap.Core.DependencyInjection
 {
     /// <summary>
-    /// 表示可注入特性
+    /// 指示被标注的类型可注入
     /// </summary>
     public abstract class InjectableAttribute : Attribute
     {
